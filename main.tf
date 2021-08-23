@@ -6,30 +6,30 @@ provider "aws" {
   skip_credentials_validation = true
   skip_metadata_api_check     = true
   skip_requesting_account_id  = true
-
+ 
   endpoints {
-    acm            = "https://<TUNNEL URL>"
-    apigateway     = "https://<TUNNEL URL>"
-    cloudformation = "https://<TUNNEL URL>"
-    cloudwatch     = "https://<TUNNEL URL>"
-    dynamodb       = "https://<TUNNEL URL>"
-    ec2            = "https://<TUNNEL URL>"
-    es             = "https://<TUNNEL URL>"
-    firehose       = "https://<TUNNEL URL>"
-    iam            = "https://<TUNNEL URL>"
-    kinesis        = "https://<TUNNEL URL>"
-    kms            = "https://<TUNNEL URL>"
-    lambda         = "https://<TUNNEL URL>"
-    rds            = "https://<TUNNEL URL>"
-    route53        = "https://<TUNNEL URL>"
-    s3             = "https://<TUNNEL URL>"
-    secretsmanager = "https://<TUNNEL URL>"
-    ses            = "https://<TUNNEL URL>"
-    sns            = "https://<TUNNEL URL>"
-    sqs            = "https://<TUNNEL URL>"
-    ssm            = "https://<TUNNEL URL>"
-    stepfunctions  = "https://<TUNNEL URL>"
-    sts            = "https://<TUNNEL URL>"
+    acm            = "http://localhost:4566"
+    apigateway     = "http://localhost:4566"
+    cloudformation = "http://localhost:4566"
+    cloudwatch     = "http://localhost:4566"
+    dynamodb       = "http://localhost:4566"
+    ec2            = "http://localhost:4566"
+    es             = "http://localhost:4566"
+    firehose       = "http://localhost:4566"
+    iam            = "http://localhost:4566"
+    kinesis        = "http://localhost:4566"
+    kms            = "http://localhost:4566"
+    lambda         = "http://localhost:4566"
+    rds            = "http://localhost:4566"
+    route53        = "http://localhost:4566"
+    s3             = "http://localhost:4566"
+    secretsmanager = "http://localhost:4566"
+    ses            = "http://localhost:4566"
+    sns            = "http://localhost:4566"
+    sqs            = "http://localhost:4566"
+    ssm            = "http://localhost:4566"
+    stepfunctions  = "http://localhost:4566"
+    sts            = "http://localhost:4566"
   }
 }
 
